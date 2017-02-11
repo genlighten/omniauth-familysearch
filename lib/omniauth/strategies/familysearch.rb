@@ -4,7 +4,7 @@ module OmniAuth
   module Strategies
     class FamilySearch < OmniAuth::Strategies::OAuth2
       option :client_options, {
-        :site => 'https://ident.familysearch.org',
+        :site => 'https://identbeta.familysearch.org',
         :authorize_url => '/cis-web/oauth2/v3/authorization',
         :token_url => '/cis-web/oauth2/v3/token'
       }
